@@ -6,4 +6,4 @@
 [Pandas tutorial for GNSS delay manipulation](notebooks/Pandas_tutorial/Pandas_tutorial.ipynb)  
 [Tutorial downloading GNSS tropospheric delays](notebooks/raiderDownloadGNSS/raiderDownloadGNSS_tutorial.ipynb)  
 [raiderStats tutorial](notebooks/raiderStats/raiderStats_tutorial.ipynb)  
-
+[Defining Custom Weather Models](WeatherModels.md)
