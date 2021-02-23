@@ -2,7 +2,7 @@
 
 ## Getting Started
 [Installation and Testing](Installation.md)  
-[Defining Custom Weather Models](WeatherModels.md)
+[Defining Custom Weather Models](notebooks/notebooks/RAiDER_tutorial/RAiDER_tutorial.ipynb)
 
 ## Tutorials 
 [RAiDER tutorial](notebooks/RAiDER_tutorial/RAiDER_tutorial.ipynb)  
