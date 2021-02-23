@@ -1,0 +1,4 @@
+ID,Date,ZTD,wet_delay,hydrostatic_delay,times,sigZTD
+COLD,2016-01-25,,,,0,
+COLD,2016-02-18,1.9308,0.0691,1.8617000000000001,0,0.0024
+COLD,2016-03-13,,,,0,
