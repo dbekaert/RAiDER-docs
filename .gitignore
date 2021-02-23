@@ -2,4 +2,10 @@
 */*checkpoint*
 */*/*checkpoint*
 */*/*/*checkpoint*
-
+*/*/.DS*
+*/.DS*
+.DS*
+*/*/*.pdf
+*/*/*.log
+*/*/geom
+*/*/weather_files
