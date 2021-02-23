@@ -1,0 +1,4 @@
+ID,Date,ZTD,wet_delay,hydrostatic_delay,times,sigZTD
+MILR,2016-01-01,,,,0,
+MILR,2016-01-25,,,,0,
+MILR,2016-02-18,2.019,0.1068,1.9122000000000001,0,0.0024
