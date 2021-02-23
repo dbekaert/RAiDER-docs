@@ -1,0 +1,24 @@
+<VRTDataset rasterXSize="11" rasterYSize="10">
+  <Metadata>
+    <MDI key="colorbarfmt">%.3e</MDI>
+    <MDI key="gridfile_type">grid_heatmap</MDI>
+    <MDI key="plotbbox">-125.0 -114.0 32.0 42.0</MDI>
+    <MDI key="spacing">1.0</MDI>
+    <MDI key="stationsongrids">False</MDI>
+    <MDI key="unit">m</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">BAND</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">ZTD_grid_variance.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11" RasterYSize="10" DataType="Float32" BlockXSize="11" BlockYSize="10" />
+      <SrcRect xOff="0" yOff="0" xSize="11" ySize="10" />
+      <DstRect xOff="0" yOff="0" xSize="11" ySize="10" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
