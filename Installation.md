@@ -13,6 +13,3 @@ RAiDER currently works on \*nix systems, and has been tested on the following sy
 3. Activate the new conda environment using ```conda activate RAiDER```
 4. From inside the main source code directory, type ```python setup.py install```
 5. Finally, test the new installation: ```py.test test/```
-
-### Installing RAiDER without conda
-- To be completed
