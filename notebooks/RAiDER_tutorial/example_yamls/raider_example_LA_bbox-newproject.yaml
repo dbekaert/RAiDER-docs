@@ -12,5 +12,7 @@
   los_group: # absent other options ZTD is calculated
   runtime_group:
     verbose: True
+    output_projection: 3310
+    grid_spacing: 1000    
   
   
