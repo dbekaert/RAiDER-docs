@@ -9,3 +9,5 @@
 */*/*.log
 */*/geom
 */*/weather_files
+*.nc
+
