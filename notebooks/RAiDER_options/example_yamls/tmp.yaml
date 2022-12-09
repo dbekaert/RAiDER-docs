@@ -1,0 +1,16 @@
+aoi_group:
+  lat_file: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/RAiDER_options/data/lat_HR.geo
+  lon_file: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/RAiDER_options/data/lon_HR.geo
+date_group:
+  date_start: '20181113'
+height_group:
+  height_levels: 0 50 100 500 1000
+look_dir: right
+los_group:
+  orbit_file: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/RAiDER_options/orbits/S1A_OPER_AUX_POEORB_OPOD_20181203T120749_V20181112T225942_20181114T005942.EOF
+  ray_trace: false
+runtime_group:
+  verbose: true
+time_group:
+  time: '23:00:00'
+weather_model: ERA5
