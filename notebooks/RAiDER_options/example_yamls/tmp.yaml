@@ -1,0 +1,14 @@
+aoi_group:
+  bounding_box: 28 39 -123 -112
+date_group:
+  date_start: 20200103
+height_group:
+  dem: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/RAiDER_options/data/SRTM_3arcsec_LA.dem
+  use_dem_latlon: true
+look_dir: right
+los_group: null
+runtime_group:
+  verbose: true
+time_group:
+  time: 00:00:00
+weather_model: GMAO

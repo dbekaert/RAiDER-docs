@@ -1,0 +1,26 @@
+# vim: set filetype=yaml:
+  look_dir: right
+  date_group: # Groups mean that there are several different possible options, see documentation for details
+    date_start: 20211102 
+  time_group:
+    # time: "00:00:00" # UTC time as a string
+    time: "06:21:59"
+  weather_model: ERA5 # RAiDER supports several models, including ECMWF, HRRR, GMAO, and MERRA-2
+  aoi_group:
+      # bounding_box: 29 39 -123 -113 # bounding box uses the weather model grid nodes
+      bounding_box: 53.0 56.0 -4.0 -1.0
+
+  height_group:
+    height_levels: 0 50 100 500 1000 # Return only these specific height levels
+
+  los_group: # absent other options ZTD is calculated
+      ray_trace: True  # Use projected slant delay by default
+      zref: # Integration height. Only used in raytracing. 
+      orbit_file: ./orbits/S1B_OPER_AUX_POEORB_OPOD_20211122T112354_V20211101T225942_20211103T005942.EOF
+
+  # File containing orbit statevectors, see *** for details 
+  orbit_file: 
+  runtime_group:
+    verbose: True
+  
+  
