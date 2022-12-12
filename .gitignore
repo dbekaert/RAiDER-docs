@@ -9,3 +9,4 @@
 */*/*.log
 */*/geom
 */*/weather_files
+*/*/*/tmp.yaml
