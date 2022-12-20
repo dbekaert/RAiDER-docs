@@ -26,6 +26,6 @@ navigate to one of the tutorial notebooks, and open it.
 ## Tutorials 
 [Pandas tutorial for GNSS delay manipulation](notebooks/Pandas_tutorial/Pandas_tutorial.ipynb)  
 [RAiDER tutorial](notebooks/RAiDER_tutorial/RAiDER_tutorial.ipynb)  
-[RAiDER library access in Python](notebooks/RAiDER_tutorial/RAiDER_Python_access.ipynb)
+[RAiDER library access in Python](notebooks/RAiDER_tutorial/RAiDER_Python_access.ipynb)  
 [Tutorial downloading GNSS tropospheric delays](notebooks/raiderDownloadGNSS/raiderDownloadGNSS_tutorial.ipynb)  
 [raiderStats tutorial](notebooks/raiderStats/raiderStats_tutorial.ipynb)  
