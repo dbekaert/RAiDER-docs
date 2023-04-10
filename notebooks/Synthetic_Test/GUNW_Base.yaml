@@ -1,0 +1,42 @@
+aoi_group:
+  bounding_box:
+  - 32.9798297683658
+  - 34.9445917837848
+  - -119.272278931358
+  - -116.25195942253
+cube_spacing_in_m: 10000
+date_group:
+  date_list:
+  - 20200130
+height_group:
+  height_levels:
+  - -500
+  - 0
+  - 500
+  - 1000
+  - 1500
+  - 2000
+  - 2500
+  - 3000
+  - 3500
+  - 4000
+  - 4500
+  - 5000
+  - 5500
+  - 6000
+  - 6500
+  - 7000
+  - 7500
+  - 8000
+  - 8500
+  - 9000
+look_dir: right
+los_group:
+  wavelength: 0.055465761572122574
+runtime_group:
+  output_directory: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/Synthetic_Test
+  raster_format: nc
+time_group:
+  time: '13:52:45'
+  interpolate_time: false
+weather_model: GMAO
