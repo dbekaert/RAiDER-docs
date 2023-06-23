@@ -1,0 +1,14 @@
+aoi_group:
+  bounding_box: 37.129123314154995 37.9307480710763 -118.44814585278701 -115.494195892019
+date_group:
+  date_list: (20200112, 20200106)
+height_group:
+  height_levels: '[-1500.0, 0.0, 3000.0, 9000.0]'
+look_dir: right
+los_group:
+  ray_trace: false
+runtime_group:
+  raster_format: nc
+time_group:
+  time: '13:51:39'
+weather_model: GMAO
