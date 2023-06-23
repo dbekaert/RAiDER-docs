@@ -1,0 +1,26 @@
+aoi_group:
+  bounding_box:
+  - 33
+  - 34
+  - -118.25
+  - -117.25
+cube_spacing_in_m: '50000.0'
+date_group:
+  date_list: '20200130'
+height_group:
+  height_levels:
+  - -500
+  - 0
+  - 500
+  - 1000
+look_dir: right
+los_group:
+  orbit_file: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/Synthetic_Test/S1B_OPER_AUX_POEORB_OPOD_20210317T025713_V20200129T225942_20200131T005942.EOF
+  ray_trace: true
+runtime_group:
+  output_directory: /Users/buzzanga/Software_InSAR/RAiDER-docs_git/notebooks/Synthetic_Test
+  raster_format: nc
+time_group:
+  interpolate_time: false
+  time: '13:52:45'
+weather_model: GMAO

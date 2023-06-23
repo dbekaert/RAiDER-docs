@@ -1,0 +1,19 @@
+aoi_group:
+  bounding_box: [37.129123314154995, 37.9307480710763, -118.44814585278701, -115.494195892019]
+date_group:
+  date_list: [20200112]
+height_group:
+  height_levels: 
+look_dir: right
+los_group:
+  ray_trace: True
+  orbit_file: ./orbits/S1A_OPER_AUX_POEORB_OPOD_20210316T215224_V20200111T225942_20200113T005942.EOF
+runtime_group:
+  output_directory: .
+  output_projection: null
+  raster_format: GTiff
+  verbose: true
+  weather_model_directory: null
+time_group:
+  time: '13:51:39'
+weather_model: ERA5
