@@ -10,3 +10,5 @@
 */*/geom
 */*/weather_files
 */*/*/tmp.yaml
+debug.log
+error.log
