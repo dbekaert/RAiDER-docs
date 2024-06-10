@@ -10,3 +10,19 @@
 */*/geom
 */*/weather_files
 */*/*/tmp.yaml
+debug.log
+error.log
+
+# Example output files
+notebooks/Pandas_tutorial/*.csv
+notebooks/Pandas_tutorial/*.mat
+notebooks/RAiDER_options/data/
+out/
+*.nc
+*_Delay*.csv
+total_delay*.png
+nisar_example.yml
+raider.yaml
+logs/
+*_delays.png
+GLO30_fullres_dem.tif
