@@ -2,19 +2,11 @@
 
 This tutorial package provides:
 
-- `Compare_RAiDER_PyAPS_GACOS.py` (original script)
-- `Compare_RAiDER_PyAPS_GACOS.ipynb` (notebook wrapper, `%run` style)
-- `Compare_RAiDER_PyAPS_GACOS_explicit.ipynb` (full explicit function/workflow notebook)
-- `raider_doc_example_data.zip` (data bundle)
+- `Compare_RAiDER_PyAPS_GACOS.ipynb`, a notebook that compares the output of RAiDER, PyAPS, and GACOS.
 - `run_raider_example.py` (dataset validator + launch helper)
 
 ## Quick start
-
-1. Extract data (if not already extracted):
-
-```bash
-unzip raider_doc_example_data.zip
-```
+1. Download and extract the data files from https://osf.io/ygm3f/files/osfstorage. 
 
 2. Validate dataset presence:
 
@@ -22,16 +14,10 @@ unzip raider_doc_example_data.zip
 python3 run_raider_example.py
 ```
 
-3. Run in notebook (recommended):
+3. Run the notebook:
 
 ```bash
-jupyter notebook Compare_RAiDER_PyAPS_GACOS_explicit.ipynb
-```
-
-4. Optional: run script directly:
-
-```bash
-python3 Compare_RAiDER_PyAPS_GACOS.py
+jupyter notebook Compare_RAiDER_PyAPS_GACOS.ipynb
 ```
 
 ## Dependencies
@@ -44,12 +30,5 @@ python3 Compare_RAiDER_PyAPS_GACOS.py
 - cartopy
 - rasterio
 - scipy
-- pyaps3 (optional)
+- pyaps3 (Required to be able to run the PyAPS example)
 
-## Data hosting recommendation
-
-The bundle is 1.5GB, so avoid storing as raw git history:
-
-- Use GitHub Releases (attach ZIP)
-- Use Git LFS (if needed)
-- Use cloud storage (e.g., S3, GCS, Azure Blob, Zenodo) and link in README
